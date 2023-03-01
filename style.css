@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+html {
+    font-size: 62.5%;
+    font-family: outfit;
+}
+.background{
+    background-color:hsl(212, 45%, 89%);
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+
+}
+.white-bgrd {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    margin: 10rem auto 10rem auto;
+    box-shadow: 0.5rem 1.5rem 1.5rem hsl(220, 15%, 55%);
+} 
+img {
+    width: 25rem;
+    border-radius: 1.5rem;
+    
+
+}
+h3 {
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-weight: 700;
+}
+p {
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    font-weight: 400;
+}
+/* desktop = 1440px */
+@media screen and (min-width:375px) {
+    
+}
